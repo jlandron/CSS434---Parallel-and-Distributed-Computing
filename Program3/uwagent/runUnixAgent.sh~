@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# $1 your port#
+java -cp UWAgent.jar:. UWAgent.UWInject -p $1 localhost UnixAgent 2 uw1-320-02 uw1-320-10 12 who ls ps df who ls ps df who ls ps df

@@ -1,0 +1,19 @@
+------------------client----------------------
+Script started on Mon 08 Apr 2019 05:28:18 PM PDT
+JOSH@DESKTOP-FMLE93V:/mnt/c/Windows/System32$ telnet cssmpi3.uwb.edu 51092
+Trying 172.28.203.198...
+Connected to cssmpi3.uwb.edu.
+Escape character is '^]'.
+Hi
+Echo: Hi
+Connection closed by foreign host.
+JOSH@DESKTOP-FMLE93V:/mnt/c/Windows/System32$
+exit
+
+Script done on Mon 08 Apr 2019 05:29:18 PM PDT
+-----------------server-----------------------
+[17:41:25] jlandron_css434@cssmpi3: ~/Lab1a $ javac EchoServer.java
+[17:41:31] jlandron_css434@cssmpi3: ~/Lab1a $ java EchoServer 51092
+Opened server port on port: 51092
+Hi
+Connection closed by client

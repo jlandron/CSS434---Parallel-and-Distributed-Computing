@@ -1,0 +1,13 @@
+Script started on Fri 03 May 2019 06:56:01 PM PDT
+jlandron_css434@cssmpi1:~/Program2[?1034h[jlandron_css434@cssmpi1 Program2]$ mpirun -n 4 java Heat2D_mpi 100 3000 2700 0
+Elapsed time = 10172
+jlandron_css434@cssmpi1:~/Program2[jlandron_css434@cssmpi1 Program2]$ mpirun -n 1 java Heat2D_mpi 1000 3000 2700 0
+Elapsed time = 6561
+jlandron_css434@cssmpi1:~/Program2[jlandron_css434@cssmpi1 Program2]$ mpirun -n 2 java Heat2D_mpi 1000 3000 2700 0
+Elapsed time = 4955
+jlandron_css434@cssmpi1:~/Program2[jlandron_css434@cssmpi1 Program2]$ mpirun -n 3 java Heat2D_mpi 1000 3000 2700 0
+Elapsed time = 4215
+jlandron_css434@cssmpi1:~/Program2[jlandron_css434@cssmpi1 Program2]$ mpirun -n 4 java Heat2D_mpi 1000 3000 2700 0
+exit
+
+Script done on Fri 03 May 2019 06:58:16 PM PDT

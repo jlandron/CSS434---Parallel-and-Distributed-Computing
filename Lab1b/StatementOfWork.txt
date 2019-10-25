@@ -1,0 +1,46 @@
+1. Purpose
+This laboratory work intends to exercise Java object serialization.
+
+2. Statement of Work
+Look at TcpClientByte.java and TcpServerByte.java under ~css434/lab1b. TcpClientByte.java sends a given size of byte array through OutputStream to TcpServerByte.java, waits for a response from the server, and prints out the result. TcpServerByte.java receives a byte array through InpuStream from the client, multiplies each element value by the variable named multiplier, and returns the result back to the client. TcpServerByte's multiplier is then squared for the next client request.
+Modify both programs as TcpClientDouble.java and TcpServerDouble.java so that they exchange an array of doubles through ObjectOutputStream and ObjectInputStream.
+
+To compile your programs, type:
+
+   css434@uw1-320-10:~/lab1b$ javac TcpClientDouble.java TcpServerDouble.java
+Run your server program first and thereafter your client:
+   css434@uw1-320-10:~/lab1b$ java TcpServerDouble 12345 10
+
+   css434@uw1-320-11:~/lab1b$ java TcpClientDouble 12345 10 uw1-320-10
+   0.0
+   1.0
+   2.0
+   3.0
+   4.0
+   5.0
+   6.0
+   7.0
+   8.0
+   9.0
+   css434@uw1-320-11:~/lab1b$ java TcpClientDouble 12345 10 uw1-320-10
+   0.0
+   2.0
+   4.0
+   6.0
+   8.0
+   10.0
+   12.0
+   14.0
+   16.0
+   18.0
+   css434@uw1-320-11:~/lab1b$
+   
+3. Related Materials
+To understand Java sockets, see the slides: p5 - 7 of IPC.ppt
+For object serialization, use the ObjectOutputStream class. See the slide p9 of IPC.ppt and Java API Documentation
+For object de-serialization, use the ObjectInputStream class. See the slide p9 of IPC.ppt and Java API Documentation
+
+4. What to Turn in
+Turn in the following materials to CollectIt by the due date of Program 1:
+Your client and erver programs, (i.e., TcpClientDouble.java and TcpServerDouble.java)
+Your execution output, (i.e., output.txt)

@@ -1,0 +1,49 @@
+--------------Client output---------------
+Script started on Wed 10 Apr 2019 05:48:32 PM PDT
+]0;jlandron_css434@cssmpi1:~/Lab1b[jlandron_css434@cssmpi1 Lab1b]$ java TcpServerDouble 51092 10 cssmpi3
+0.0
+1.0
+2.0
+3.0
+4.0
+5.0
+6.0
+7.0
+8.0
+9.0
+]0;jlandron_css434@cssmpi1:~/Lab1b[jlandron_css434@cssmpi1 Lab1b]$ java TcpClientDouble 51092 10 cssmpi3
+0.0
+2.0
+4.0
+6.0
+8.0
+10.0
+12.0
+14.0
+16.0
+18.0
+]0;jlandron_css434@cssmpi1:~/Lab1b[jlandron_css434@cssmpi1 Lab1b]$ java TcpClientDouble 51092 10 cssmpi3
+0.0
+4.0
+8.0
+12.0
+16.0
+20.0
+24.0
+28.0
+32.0
+36.0
+]0;jlandron_css434@cssmpi1:~/Lab1b[jlandron_css434@cssmpi1 Lab1b]$ exit
+exit
+
+Script done on Wed 10 Apr 2019 05:49:28 PM PDT
+
+---------------Server Output--------------------
+[17:47:15] jlandron_css434@cssmpi3: ~/Lab1b $ java TcpServerDouble 51092 10
+Server started on port: 51092
+Client connected
+Client disconnected
+Client connected
+Client disconnected
+Client connected
+Client disconnected

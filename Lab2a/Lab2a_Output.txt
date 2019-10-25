@@ -1,0 +1,29 @@
+[15:08:56] jlandron_css434@cssmpi1: ~/lab2a $ mpirun -n 4 java MatrixMult 2000 n
+array a:
+array b:
+sending 500 rows to rank 0
+sending 500 rows to rank 1
+sending 500 rows to rank 2
+sending 500 rows to rank 3
+rank[1] at cssmpi4: multiplication completed
+rank[2] at cssmpi3: multiplication completed
+result c:
+time elapsed = 67760 msec
+rank[0] at cssmpi1: multiplication completed
+rank[3] at cssmpi2: multiplication completed
+[15:10:14] jlandron_css434@cssmpi1: ~/lab2a $ mpirun -n 2 java MatrixMult 2000 n
+array a:
+array b:
+sending 1000 rows to rank 0
+sending 1000 rows to rank 1
+result c:
+time elapsed = 136657 msec
+rank[0] at cssmpi1: multiplication completed
+rank[1] at cssmpi4: multiplication completed
+[15:12:58] jlandron_css434@cssmpi1: ~/lab2a $ mpirun -n 1 java MatrixMult 2000
+array a:
+array b:
+sending 2000 rows to rank 0
+result c:
+time elapsed = 275925 msec
+rank[0] at cssmpi1: multiplication completed

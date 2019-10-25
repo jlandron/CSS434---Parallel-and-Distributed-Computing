@@ -1,0 +1,19 @@
+[00:29:56] jlandron_css434@cssmpi1: ~/Program2 $ javac Heat2D_mpi.java
+[00:30:13] jlandron_css434@cssmpi1: ~/Program2 $ mpirun -n 4 java Heat2D_mpi 1000 3000 2700 0
+Rank[1]'s range = 250 ~ 499
+Rank[3]'s range = 750 ~ 999
+Rank[2]'s range = 500 ~ 749
+Rank[0]'s range = 0 ~ 249
+Elapsed time = 4613
+[00:30:20] jlandron_css434@cssmpi1: ~/Program2 $ mpirun -n 3 java Heat2D_mpi 1000 3000 2700 0
+Rank[1]'s range = 334 ~ 666
+Rank[2]'s range = 667 ~ 999
+Rank[0]'s range = 0 ~ 333
+Elapsed time = 4979
+[00:30:31] jlandron_css434@cssmpi1: ~/Program2 $ mpirun -n 2 java Heat2D_mpi 1000 3000 2700 0
+Rank[1]'s range = 500 ~ 999
+Rank[0]'s range = 0 ~ 499
+Elapsed time = 6515
+[00:30:43] jlandron_css434@cssmpi1: ~/Program2 $ mpirun -n 1 java Heat2D_mpi 1000 3000 2700 0
+Rank[0]'s range = 0 ~ 999
+Elapsed time = 10222

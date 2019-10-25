@@ -1,0 +1,282 @@
+Script started on Fri 17 May 2019 02:11:49 PM PDT
+]0;jlandron_css434@cssmpi4:~/Program3/uwagent[?1034h[jlandron_css434@cssmpi4 uwagent]$ exit./runUWPlace.sh 51092
+run UWPlace from UWAgent.UWPlace with port# = 51092
+
+nServers = 1, server1 = cssmpi1, command1 = who
+total = 83
+Execution Time = 90
+
+nServers = 1, server1 = cssmpi1, command1 = who
+total = 83
+Execution Time = 55
+
+nServers = 1, server1 = cssmpi1, command1 = who
+total = 83
+Execution Time = 50
+
+nServers = 1, server1 = cssmpi1, command1 = who
+total = 83
+Execution Time = 57
+
+nServers = 1, server1 = cssmpi1, command1 = who
+total = 83
+Execution Time = 47
+
+nServers = 2, server1 = cssmpi1, command1 = who
+total = 148
+Execution Time = 92
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 2, server1 = cssmpi1, command1 = who
+total = 148
+Execution Time = 77
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 2, server1 = cssmpi1, command1 = who
+total = 148
+Execution Time = 77
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 2, server1 = cssmpi1, command1 = who
+total = 148
+Execution Time = 78
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 2, server1 = cssmpi1, command1 = who
+total = 148
+Execution Time = 76
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 3, server1 = cssmpi2, command1 = who
+total = 191
+Execution Time = 104
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 3, server1 = cssmpi2, command1 = who
+total = 191
+Execution Time = 97
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 3, server1 = cssmpi2, command1 = who
+total = 191
+Execution Time = 94
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 3, server1 = cssmpi2, command1 = who
+total = 191
+Execution Time = 96
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 3, server1 = cssmpi2, command1 = who
+total = 191
+Execution Time = 92
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 1, server1 = cssmpi1, command1 = who
+total = 249
+Execution Time = 97
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 1, server1 = cssmpi1, command1 = who
+total = 249
+Execution Time = 93
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 1, server1 = cssmpi1, command1 = who
+total = 249
+Execution Time = 89
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 1, server1 = cssmpi1, command1 = who
+total = 249
+Execution Time = 95
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 1, server1 = cssmpi1, command1 = who
+total = 249
+Execution Time = 93
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 2, server1 = cssmpi1, command1 = who
+total = 444
+Execution Time = 164
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 2, server1 = cssmpi1, command1 = who
+total = 444
+Execution Time = 158
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 2, server1 = cssmpi1, command1 = who
+total = 444
+Execution Time = 166
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 2, server1 = cssmpi1, command1 = who
+total = 444
+Execution Time = 168
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 2, server1 = cssmpi1, command1 = who
+total = 444
+Execution Time = 160
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 3, server1 = cssmpi1, command1 = who
+total = 633
+Execution Time = 232
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 3, server1 = cssmpi1, command1 = who
+total = 633
+Execution Time = 220
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 3, server1 = cssmpi1, command1 = who
+total = 621
+Execution Time = 228
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 3, server1 = cssmpi1, command1 = who
+total = 621
+Execution Time = 223
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 3, server1 = cssmpi1, command1 = who
+total = 621
+Execution Time = 223
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 1, server1 = cssmpi1, command1 = grep -o 123 ../files/text1.txt
+total = 359
+Execution Time = 121
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 1, server1 = cssmpi1, command1 = grep -o 123 ../files/text1.txt
+total = 359
+Execution Time = 121
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 1, server1 = cssmpi1, command1 = grep -o 123 ../files/text1.txt
+total = 359
+Execution Time = 121
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 1, server1 = cssmpi1, command1 = grep -o 123 ../files/text1.txt
+total = 359
+Execution Time = 116
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 1, server1 = cssmpi1, command1 = grep -o 123 ../files/text1.txt
+total = 359
+Execution Time = 119
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 2, server1 = cssmpi1, command1 = grep -o 123 ../files/text1.txt
+total = 718
+Execution Time = 228
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 2, server1 = cssmpi1, command1 = grep -o 123 ../files/text1.txt
+total = 718
+Execution Time = 232
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 2, server1 = cssmpi1, command1 = grep -o 123 ../files/text1.txt
+total = 718
+Execution Time = 226
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 2, server1 = cssmpi1, command1 = grep -o 123 ../files/text1.txt
+total = 718
+Execution Time = 231
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 2, server1 = cssmpi1, command1 = grep -o 123 ../files/text1.txt
+total = 718
+Execution Time = 238
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 3, server1 = cssmpi1, command1 = grep -o 123 ../files/text1.txt
+total = 1077
+Execution Time = 332
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 3, server1 = cssmpi1, command1 = grep -o 123 ../files/text1.txt
+total = 1077
+Execution Time = 327
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 3, server1 = cssmpi1, command1 = grep -o 123 ../files/text1.txt
+total = 1077
+Execution Time = 331
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 3, server1 = cssmpi1, command1 = grep -o 123 ../files/text1.txt
+total = 1077
+Execution Time = 325
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+
+nServers = 3, server1 = cssmpi1, command1 = grep -o 123 ../files/text1.txt
+total = 1077
+Execution Time = 333
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+#: UnixAgent 0 exiting; sending exit message to parent (id -1)
+^Z
+[1]+  Stopped                 ./runUWPlace.sh 51092
+]0;jlandron_css434@cssmpi4:~/Program3/uwagent[jlandron_css434@cssmpi4 uwagent]$ exit
+exit
+There are stopped jobs.
+]0;jlandron_css434@cssmpi4:~/Program3/uwagent[jlandron_css434@cssmpi4 uwagent]$ exit
+exit
+
+Script done on Fri 17 May 2019 02:12:28 PM PDT

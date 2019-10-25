@@ -1,0 +1,23 @@
+1. Purpose
+This laboratory work intends to mitigate your steep learning curve on MPI Java. 
+You are to code and run an MPI Java program that includes MPI.COMM_WORLD.Send( ) and MPI.COMM_WORLD.Recv( )
+
+2. Statement of Work
+Code an MPI java program that executes the following square root computation:
+rank 0: creates an array of 100 "double" elements, (say, dArray[100]); sends dArray[25] through to dArray[49] to rank 1, dArray[50] through to dArray[74] rank 2, and dArray[75] through to dArray[99] to rank3; thereafter computes "sqrt" of dArray[0] through to dArray[24]; and finally receives the results from the other ranks. Use MPI.COMM_WORLD.Send( ) and MPI.COMM_WORLD.Recv( ) to send and receive an array with a remote rank. (Don't try to communicate with rank0 itself, which hangs up communication.) At the very end, print out all array elements.
+other ranks: creates an array of 25 "double" elements, (say, dArray[25]); receives data in dArray[0] through to dArray[24] from rank 0; thereafter computes "sqrt" of all the array elements; and finally sends the results to rank 0. Use MPI.COMM_WORLD.Recv( ) and MPI.COMM_WORLD.Send( ) to receive from and send an array to rank 0.
+Make sure that you have set up your MPI execution envrionment first.
+Compile and run your MPI java program by typing:
+   javac MyProgram.java
+   prunjava 4 MyProgram
+
+3. Related Materials
+To make a quick review for MPI Java, see the slides: p18-21 of MPI.ppt
+For detilas of MPI Java, refer to the following tutorial and specificatioin.
+http://www.hpjava.org/courses/arl/lectures/mpi.ppt
+http://www.hpjava.org/reports/mpiJava-spec/mpiJava-spec.pdf
+
+4. What to Turn in
+Turn in the following materials to CollectIt by the due date of Program 2:
+Your MPI java program, (i.e., MyProgram.java)
+Your execution output, (i.e., output.txt)

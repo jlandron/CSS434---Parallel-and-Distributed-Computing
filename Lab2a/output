@@ -1,0 +1,20 @@
+array a:
+[0][0] = 0.0
+[0][1] = 1.0
+[1][0] = 1.0
+[1][1] = 2.0
+array b:
+[0][0] = 0.0
+[0][1] = -1.0
+[1][0] = 1.0
+[1][1] = 0.0
+sending 1 rows to rank 0
+sending 1 rows to rank 1
+result c:
+[0][0] = 1.0
+[0][1] = 0.0
+[1][0] = 2.0
+[1][1] = -1.0
+time elapsed = 2 msec
+rank[1] at uw1-320-21: multiplication completed
+rank[0] at uw1-320-20: multiplication completed

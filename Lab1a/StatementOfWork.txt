@@ -1,0 +1,29 @@
+
+1. Purpose
+This laboratory work intends to get you used to Java socket programming under the Unix environment. After the professor explains about the LAB-320's machine configuration, the Linux envorinment, and Java sockets, you are to complete and run a simple server programs with Java sockets.
+2. Statement of Work
+Complete a ~css434/lab1a/EchoSErver.java that receives an ASCII message from a telnet client nad simply echos it back to the client.
+EchoServer.java: opens a ServerSocket at a given port and goes into the following loop: (1) wait for a new client connection, (2) read a byte message, (3) simply echo it back, and (4) close this client conneciton.
+To compile your programs, type:
+   css434@uw1-320-10:~/lab1a$ javac EchoServer.java
+Run your server program first and thereafter telnet
+   css434@uw1-320-10:~/lab1a$ java EchoServer port
+   css434@uw1-320-11:~/lab1a$ telnet uw1-320-10 port
+
+   css434@uw1-320-10:~/lab1a$ java EchoServer 12345
+
+   css434@uw1-320-11:~/lab1a$ telnet uw1-320-10 12345
+   Connected to uw1-320-10.
+   Escape character is '^]'.
+   Hi!
+   Hi!
+
+   Connection closed by foreign host.
+   css434@uw1-320-11:~/lab1a$ 
+Cut and paste the results into a file.
+3. Related Materials
+To understand Java sockets, see the slides: p5 - 7 of IPC.ppt
+4. What to Turn in
+Turn in the following materials to CollectIt by the due date of Program 1:
+Your complete EchoServer.java
+Your execution output, (i.e., output.txt)

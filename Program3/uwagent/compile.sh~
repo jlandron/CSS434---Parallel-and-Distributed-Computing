@@ -1,0 +1,2 @@
+#!/bin/sh
+javac -Xlint -classpath UWAgent.jar:. $1

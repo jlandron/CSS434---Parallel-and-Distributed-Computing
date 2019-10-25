@@ -1,0 +1,17 @@
+1. Purpose
+This laboratory work intends to let you understand how to code and run mobile agents, so that you can focus on your HW3's code design.
+
+2. Statement of Work
+Read program 3's specification carefully to understand how to run UWAgent.
+Code a simple mobile agent, say MyAgent.java that migrates to uw1-320-10, thereafter uw1-320-11, and finally uw1-320-12 in this order as printing out "hop", "step", and "jump" at a respective site. Please note that you can choose any three different computing nodes other than uw1-320-10, 11, and 12.
+
+3. Related Materials
+To take a quick review for UWAgents, see the slides: p21 of Migration.ppt
+To get the UWAgents user manual, click UWAgentUserManual.pdf
+To take a snapshot of the entire X server screen, type:
+    import -window root X.jpeg
+
+4. What to Turn in
+Turn in the following materials to CollectIt by the due date of Program 3:
+Your mobile agent program, (i.e., MyAgent.java)
+Your agent execution output, (i.e., X.jpeg)

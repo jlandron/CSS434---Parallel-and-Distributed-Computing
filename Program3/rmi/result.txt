@@ -1,0 +1,2 @@
+count = 360
+Exectuion Time = 328
